@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="ToDo.css">
+    <meta charset="UTF-8" />
+    <title>todolist</title>
+    
+</head>
+
+<body>
+    <div class="input-area">
+
+        <input class="text" placeholder="やるべきな事"><button class="input-button">入力</button>
+    
+    </div>
+
+    <p>未完了リスト</p>
+
+    <div id="ToDo-Area">
+
+        <div id="template" style="display: none;" > 
+
+            <div id="todo-item">
+
+                <span class="todo-text"></span>
+
+                <button class="ClearButton">完了</button>
+                <button  class="DeleteButton">削除</button>
+                     
+            </div>
+        
+        </div>
+        
+    </div>
+    <p> 完了リスト</p>
+    <div id="Clear-Area">
+
+        <div id="template" style="display: none;" > 
+
+            <div id="clear-item">
+
+                <span class="clear-text"></span>
+
+                <button class="DoButton">未完了</button>
+                <button  class="DeleteButton">削除</button>
+    
+            </div>
+        
+        </div>
+
+    </div>
+
+    <script src="TODO.js"></script>
+
+</body>
+</html>
